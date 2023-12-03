@@ -4,7 +4,7 @@ Este proyecto de e-commerce, desarrollado utilizando la pila MERN (Mongo, Expres
 
 ## Descripción
 
-El proyecto cuenta con secciones que abarcan desde una página de inicio hasta funcionalidades de autenticación, permitiendo a los usuarios registrados crear, editar y eliminar productos. La arquitectura MERN asegura un rendimiento eficiente y una experiencia de usuario fluida.
+El proyecto cuenta con secciones que abarcan desde una página de inicio hasta funcionalidades de autenticación, permitiendo a los usuarios registrados crear, editar y eliminar productos. Tambien para ir a la Homepage debe clickear Products Manager. La arquitectura MERN asegura un rendimiento eficiente y una experiencia de usuario fluida.
 
 ## Tecnologías y Librerías Destacadas
 

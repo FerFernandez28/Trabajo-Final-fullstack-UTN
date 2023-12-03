@@ -19,8 +19,9 @@ const LoginPage = () => {
     const formContentHeight = `${47 + totalErrors * 3}vh`;
   
     return (    
-        <div className='form-content' style={{ height: formContentHeight }}>       
+        <div className='form-content' style={{ height: formContentHeight }}>    
             {
+                
                 signinErrors.map((error, i)=>(
                     <div className='errorsRegister' key={i}>
                         {error}

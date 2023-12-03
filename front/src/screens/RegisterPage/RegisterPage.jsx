@@ -14,7 +14,6 @@ const RegisterPage = () => {
         signup(values);
     });
     useEffect(() => {
-        console.log('useEffect after signup:', isAuthenticated);
         if (isAuthenticated) navigate("/products");
         
     }, [isAuthenticated]);

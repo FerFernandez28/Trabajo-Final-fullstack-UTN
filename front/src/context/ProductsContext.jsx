@@ -14,7 +14,6 @@ const useProducts = () => {
 
 const ProductProvider = ({ children }) => {
     const [products, setProducts] = useState([]);
-    const [errors, setErrors] = useState([])
 
     const getProducts = async()=>{
         try {
@@ -27,8 +26,12 @@ const ProductProvider = ({ children }) => {
     }
 
     const createProduct = async(product) =>{
-        const res = await createProductRequest(product)
-        console.log(res)
+        try {
+            const res = await createProductRequest(product)
+            console.log(res)       
+        } catch (error) {
+            console.error(error);
+        }
     }
 
     const deleteProduct = async(id) =>{
@@ -65,7 +68,7 @@ const ProductProvider = ({ children }) => {
             getProducts,
             deleteProduct,
             getProduct,
-            updateProduct
+            updateProduct,
         }}>
         {children}
         </ProductContext.Provider>

@@ -7,10 +7,10 @@ const HomePage = () => {
     <div className='containerHM'>
       <div className='cardHM'>
         <div className='cardInfo'>
-          <h4>CREADOR DE PRODUCTOS</h4>
-          <h1>Crea tu Producto en esta pagina!</h1>
-          <h3>Con este Creador de Productos, solo se necesitan unos minutos para crear el Producto que vos quieras! Podes verlos y editarlos cuando quieras.</h3>
-          <Link to='/login'><button className='btn-HM'>Crea ahora</button></Link>
+          <h4>PRODUCT CREATOR</h4>
+          <h1>Create your product in this page!</h1>
+          <h3>With this Product Creator, you'll only need a couple minutes to create any Product you want! You can view and edit them as you wish.</h3>
+          <Link to='/login'><button className='btn-HM'>Creat now</button></Link>
         </div>
       </div>
     </div>
