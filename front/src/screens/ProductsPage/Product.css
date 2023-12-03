@@ -1,0 +1,39 @@
+.productCards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 67vw;
+    gap: 3vw;
+    margin-top: 13vh;
+    
+}
+
+.noProductsContainer{
+    margin: 0 auto;
+    background-color: #2c2f35;
+    width: 20vw;
+    height: 20vh;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    color: white;
+}
+
+.btn-addProduct{
+    background-color: #04BD7D;
+    border: none;
+    border-radius: 2px;
+    padding: 13px;
+    color: white;
+    cursor: pointer;
+}
+.btn-addProduct:hover {
+    background-color: #029e68;
+}
+.btn-addProduct:active {
+    background-color: #029e68;
+}
